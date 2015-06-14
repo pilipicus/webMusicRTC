@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WebRTC for practical activities">
+    <meta name="author" content="Filippo Aiello">
+    <link rel="icon" href="images/logo.ico">
+
+    <title>WebRTC</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/docs.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div id="mainContainer" class=container-fluid">
+    	
+    	
+    	
+    	
+    	<div id="introduction" class="bs-docs-featurette">
+    	  <div class="container">
+    		<h2 class="bs-docs-featurette-title">Web <strong>MUSIC</strong> RTC</h2>
+    		<p class="lead">An example of how WebRTC can support practical activities</p>
+    		<br/>
+    		<br/>
+    		<br/>
+    		</div>
+    		
+    		<form id="formData" data-example-id="input-group-sizing" class="bs-example bs-example-form" >
+    			<br/>
+			    <div id="username" class="input-group input-group-lg">
+			      <span id="sizing-addon1" class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+			      <input id="usernameField" type="text" aria-describedby="sizing-addon1" placeholder="Username" class="form-control">
+			      </div>
+			      <br/>
+			      <a id="openPlatform" class="btn btn-outline btn-lg">Open</a>
+			  </form>
+  
+    	</div>
+    	
+    	<div id="product">
+	    	<div class="row">
+	    		 <button id="connectMulticonferenceButton">connectMulticonferenceButton</button>
+		         <button id="joinMulticonferenceButton">joinMulticonferenceButton</button>
+		    </div>
+		    
+		    <div class="row">
+	    		<div id="videoConferenceContainer" class="row-same-height row-full-height">
+	    		</div>
+	    	</div>
+    	
+
+    	</div>
+    	
+    	<footer id="footer" role="contentinfo" class="bs-docs-footer">
+            <div class="container">
+            	<p>A project designed and developed by <strong>Filippo Aiello</strong></p>
+            	<br/>
+            	<p>Website: <a target="_blank" href="http://www.filippoaiello.it">www.filippoaiello.it</a> </p>
+            	<p>Portfolio: <a target="_blank" href="http://www.filippoaiello.it/PortfolioAiello.pdf">www.filippoaiello.it/PortfolioAiello.pdf/portfolio.pdf</a> </p>
+            	<p>Twitter: <a target="_blank" href="https://twitter.com/filippoaiello">@FilippoAiello</a> </p>
+            	<p>Linkedin: <a target="_blank" href="https://it.linkedin.com/in/filippoaiello">filippoaiello</a> </p>
+        	</div>
+        </footer>
+    	
+    	
+	
+
+    </div> <!-- /container -->
+
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>
+	<script type="text/javascript" src="http://www.rtcmulticonnection.org/latest.js"></script>
+
+	<script type="text/javascript" src="js/audio_context_monkeypatch.js"></script>
+	<script type="text/javascript" src='js/pitch_detector.js'></script>
+	<script type="text/javascript" src="js/volume-meter.js"></script>
+	<script type="text/javascript" src="js/underscore.js"></script>
+	<script type="text/javascript" src='js/main.js'></script>
+
+</body>
+</html>

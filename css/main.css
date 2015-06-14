@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+	/* Reset CSS
+	 * --------------------------------------- */
+	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+	form,fieldset,input,textarea,p,blockquote,th,td {
+		padding: 0;
+		margin: 0;
+	}
+	
+	
+#mainContainer{
+	background-color: white;
+}
+
+#introduction{
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+
+#product{
+  display:none;
+}
+	
+video {
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+}
+
+button[disabled] {
+    background: rgba(216, 205, 205, 0.2);
+    border: 1px solid rgb(233, 224, 224);
+}
+
+.row > div{
+	margin:0px;
+	padding:0px;
+}
+
+.mejs-controls {display: none !important;}
+
+
+.piano{
+	width:100%;
+	height: auto;
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+
+#footer{
+	  background-color: gray;
+	  color: white;
+	  margin: 0;
+	  padding-top: 30px;
+	  bottom: 0;
+	  width: 100%;
+	  margin-top: 50px;
+}
+#footer a{
+	color: white;
+}
+
+.bs-example::after,
+#introduction #formData{
+	content:"Insert your name" !important;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+#username{
+
+}
+
+#usernameField{
+	
+}
+
+.btn-outline{
+	
+}
